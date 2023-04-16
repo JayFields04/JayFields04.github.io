@@ -287,13 +287,13 @@ nav li {
     padding: 10px;
   }
 
-  .wvu-container{
+.wvu-container{
     width: 100%;
   }
 
   .wvu-container h3{
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
   }
 
   .whs-container{
@@ -302,7 +302,7 @@ nav li {
 
   .whs-container h3{
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
   }
 
   p{

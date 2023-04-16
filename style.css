@@ -270,26 +270,31 @@ font-size: 20px;
 }
    */
 
-@media screen and (min-width: 320px) {
-.navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+@media only screen and (max-width: 600px) {
+nav ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    margin: 10px;
 }
 h2 {
-    font-size: 24px;
-    padding-top: 30px;
-    padding-bottom: 15px;
-  }
+font-size: 24px;
+padding-top: 30px;
+padding-bottom: 15px;
+}
 
-  p {
-    width: 90%;
-    font-size: 16px;
-    padding-bottom: 15px;
-  }
+p {
+width: 90%;
+font-size: 16px;
+padding-bottom: 15px;
+}
 
-  .wvu-container,
-  .whs-container {
-    width: 90%;
-  }
+.wvu-container,
+.whs-container {
+width: 90%;
+}
 }

@@ -184,14 +184,6 @@ border-bottom: 3px solid #000000;
     background-color: #A3CFA7; 
 }
 
-.education-container{
-    background-color: #FFF1DE;
-}
-
-.work-container{
-    background-color: #A3CFA7;
-}
-
 h2{
     padding-top: 55px;
     text-align: center;
@@ -204,6 +196,38 @@ p{
     margin: auto;
     padding-bottom: 30px;
 }
+
+.education-container{
+    background-color: #FFF1DE;
+}
+
+.wvu-container{
+    width: 70%;
+    margin: auto;
+}
+
+.wvu-container h3{
+    text-align: center;
+    margin-top: -40px;
+}
+
+.whs-container{
+    width: 70%;
+    margin: auto;
+}
+
+.whs-container h3{
+    text-align: center;
+    margin-top: -40px;
+}
+
+
+
+.work-container{
+    background-color: #A3CFA7;
+}
+
+
 
 /* Footer */
 /* footer {
@@ -245,3 +269,27 @@ color: #fff;
 font-size: 20px;
 }
    */
+
+@media screen and (min-width: 700px) {
+.navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  p {
+    width: 90%;
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+
+  .wvu-container,
+  .whs-container {
+    width: 90%;
+  }
+}

@@ -281,20 +281,39 @@ nav li {
     display: block;
     margin: 10px;
 }
-h2 {
-font-size: 24px;
-padding-top: 30px;
-padding-bottom: 15px;
-}
 
-p {
-width: 90%;
-font-size: 16px;
-padding-bottom: 15px;
-}
+.education-container{
+    background-color: #FFF1DE;
+    padding: 10px;
+  }
 
-.wvu-container,
-.whs-container {
-width: 90%;
-}
+  .wvu-container{
+    width: 100%;
+  }
+
+  .wvu-container h3{
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .whs-container{
+    width: 100%;
+  }
+
+  .whs-container h3{
+    text-align: center;
+    margin-top: 0;
+  }
+
+  p{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+
+  h2{
+    padding-top: 20px;
+    font-size: 28px;
+  }
 }
